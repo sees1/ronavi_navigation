@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<package format="2">
+  <name>ronavi_navigation</name>
+  <version>0.0.1</version>
+  <description>This package contain realization of Navigation Stack ROS for ronavi company robots</description>
+  
+  <author>Vsevolod Egorov</author>
+  <maintainer email="Vsevolod.Egorov@ronavi.ru">Junior ROS developer</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/sees1/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+
+  <exec_depend>slam_benchmark</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>ronavi_navigation_slam</exec_depend>
+  <exec_depend>ronavi_navigation_global</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
